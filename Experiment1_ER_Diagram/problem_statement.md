@@ -45,28 +45,51 @@ Design a database for patient management, appointments, medical records, and bil
    - Why you chose the entities and relationships.
    - How you modeled prerequisites or billing.
 
-# ER Diagram Submission - Student Name
+# ER Diagram Submission - Ramitha chowdary S - 212224240130
 
 ## Scenario Chosen:
-University / Hospital (choose one)
+Hospital 
 
 ## ER Diagram:
-![ER Diagram](er_diagram.png)
+![image](https://github.com/user-attachments/assets/321daa76-335d-407a-826b-15493c10b918)
+
 
 ## Entities and Attributes:
-- Entity1: Attributes
-- Entity2: Attributes
-...
+```
+College-ID,Name
+Department-Dept ID,Dept Name
+Student-Student Id, Enrollment Id, Course Id, Enrollment Date
+Course-Course Id, Course Name
+Faculty-Teachers Id, Teachers name, Phone/email
+```
 
 ## Relationships and Constraints:
-- Relationship1 (Cardinality, Participation)
-- Relationship2 (Cardinality, Participation)
-...
+```
+College offers Department
+Cardinality: One-to-Many (1:N)
+Participation: Total participation from Department side
+
+Department has Student
+Cardinality: One-to-Many (1:N)
+Participation: Partial participation from Department side
+
+Department includes Course
+Cardinality: One-to-Many (1:N)
+Participation: Total participation from Course side
+
+Course is taught by Faculty
+Cardinality: Many-to-Many (M:N)
+Participation: Partial participation from Course side
+
+Course has Prerequisite (Course → Course)
+Cardinality: One-to-Many (1:N)
+Participation: Partial participation from Course side
+```
 
 ## Extension (Prerequisite / Billing):
-- Explain how you modeled prerequisites or billing.
+Prerequisites are modeled as a recursive relationship on the Course entity, meaning one course can require another course before enrollment. Cardinality is 1:N (one course can have many prerequisites) and participation is partial (not all courses must have prerequisites).
 
 ## Design Choices:
-Brief explanation of why you chose certain entities, relationships, and assumptions
-
+I chose College as the top-level unit managing multiple departments. Departments were needed to handle both students and courses. Students are important to track enrollments, while Courses represent the subjects offered. Faculty was added to show who teaches these courses. Relationships like offers, has student, includes, and in taught connect everything just like in real life. The prerequisite is a special self-link showing that some courses depend on others. I assumed every department belongs to a college, courses belong to departments, but not all departments must have students or all courses have prerequisites. This keeps the design simple, practical, and close to how colleges actually work.
 ## RESULT
+The ER Diagram for Universitywas successfully created.Identifying the keyentities, attributes, and the relationships
