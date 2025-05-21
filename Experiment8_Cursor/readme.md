@@ -78,6 +78,7 @@ END;
 
 **Output:**  
 The program should display the employee details or an error message.
+![444790997-309cc0ae-38e2-474f-b13b-61f8fd89ba1a](https://github.com/user-attachments/assets/af638de4-37b3-4557-9180-ba02b696e744)
 
 ---
 
@@ -97,6 +98,7 @@ The program should display the employee details or an error message.
 
 **Output:**  
 The program should display the employee details within the specified salary range or an error message if no data is found.
+![444791111-5a310361-c353-4435-973f-c60771bc3bef](https://github.com/user-attachments/assets/0c97ccc9-78aa-43c3-8b78-a075f192d969)
 
 ---
 
@@ -116,6 +118,7 @@ The program should display the employee details within the specified salary rang
 
 **Output:**  
 The program should display employee names with their department numbers or the appropriate error message if no data is found.
+![444791154-941a9de5-183d-4ae0-ae7e-51fd9e6956d7](https://github.com/user-attachments/assets/5b7a5437-0711-4107-a288-910c198dc4dd)
 
 ---
 
@@ -135,6 +138,7 @@ The program should display employee names with their department numbers or the a
 
 **Output:**  
 The program should display employee records or the appropriate error message if no data is found.
+![444791195-75c2057e-282e-40af-9abf-963cd54625a1](https://github.com/user-attachments/assets/a35d131b-776a-4029-80aa-3489a772d600)
 
 ---
 
@@ -154,6 +158,7 @@ The program should display employee records or the appropriate error message if 
 
 **Output:**  
 The program should update employee salaries and display a message, or it should display an error message if no data is found.
+![444791222-2656ed13-4cef-4a82-a7c9-e9892431f065](https://github.com/user-attachments/assets/7e72ee6d-aace-4424-871c-c99a88c1b63e)
 
 ---
 
